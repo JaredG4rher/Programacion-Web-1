@@ -1,0 +1,33 @@
+body{
+	background-color: #809bce;
+
+}
+table{
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+	caption-side: top;
+}
+td,th{
+	border: 1px solid gray;
+
+
+}
+table tr:nth-child(odd){
+	background-color: #b8e0d2;
+
+}
+/*Fondo para las filaspares*/
+table tr:nth-child(even){
+	background-color:  #95b8d1;
+}
+table tr th{
+	background-color: lightseagreen;
+	color: white;
+
+}
+table tr:hover{
+	background-color: lightseagreen;
+	color: white;
+
+}
