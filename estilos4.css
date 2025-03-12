@@ -40,12 +40,12 @@ h2{
 }
 @font-face{
 	font-family: "fuente 1";
-	src: url("IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf")
+	src: url("Fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf")
 	format("truetype");
 }
 @font-face{
 	font-family: "fuente 2";
-	src: url("IBM_Plex_Mono/IBMPlexMono-Italic.ttf")
+	src: url("Fonts/IBM_Plex_Mono/IBMPlexMono-Italic.ttf")
 	format("truetype");
 }
 p{
