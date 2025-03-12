@@ -1,0 +1,58 @@
+.capa1{
+	margin-left: 25%;
+	padding: 12px;
+
+
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0x;
+	width: 20%;
+	height: 100%;
+	background-color: lightskyblue;
+	position: fixed;
+}
+li a{
+	background-color: lightskyblue;
+	color: white;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+a{
+	cursor: wait;
+}
+
+li a:hover{
+	background-color: lightcoral;
+}
+li .activo{
+	background-color: coral;
+	color: white;
+}
+h1{
+	font-family: "Lobster", sans-serif;
+}
+
+h2{
+	font-family: "Lora", serif;
+}
+@font-face{
+	font-family: "fuente 1";
+	src: url("IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf")
+	format("truetype");
+}
+@font-face{
+	font-family: "fuente 2";
+	src: url("IBM_Plex_Mono/IBMPlexMono-Italic.ttf")
+	format("truetype");
+}
+p{
+	font-family: "fuente 1";
+	font-size: 17px;
+}
+.t2{
+	font-family: "fuente 2";
+	font-size: 17px;
+}
