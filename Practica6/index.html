@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TI-BIKERSZ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-motorcycle"></i> TI-BIKERSZ</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#deportivas"><i class="fas fa-tachometer-alt"></i> Deportivas</a></li>
+            <li><a href="#crucero"><i class="fas fa-road"></i> Crucero</a></li>
+            <li><a href="#enduro"><i class="fas fa-mountain"></i> Enduro</a></li>
+            <li><a href="#galeria"><i class="fas fa-images"></i> Galería</a></li>
+            <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+            <li><a href="#sobre nosotros"><i class="fas fa-info-circle"></i> Sobre Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a TI-BIKERSZ</h2>
+            <p>Descubre la pasión por las dos ruedas y explora los diferentes tipos de motocicletas que existen.</p>
+        </section>
+
+        <section id="deportivas">
+            <h2>Motos Deportivas</h2>
+            <img src="images/moto_deportiva.jpg" alt="Moto Deportiva">
+            <p>Las motos deportivas están diseñadas para velocidad y rendimiento en pista. Con su aerodinámica avanzada y potentes motores, estas máquinas son la elección perfecta para los amantes de la adrenalina.</p>
+            <ul class="features"> 
+                <li><i class="fas fa-tachometer-alt"></i> Alta velocidad</li>
+                <li><i class="fas fa-cogs"></i>Tecnología avanzada</li>
+                <li><i class="fas fa-wind"></i> Aerodinámica optimizada</li>
+                <li><i class="fas fa-wind"></i> Alta eficiencia</li>
+            </ul>
+        </section>
+
+        <section id="crucero">
+            <h2>Motos Crucero</h2>
+            <img src="images/moto_crucero.jpg" alt="Moto Crucero">
+            <p>Las motos crucero ofrecen comodidad para largos viajes en carretera. Con su estilo clásico y posición de conducción relajada, estas motos son ideales para disfrutar del paisaje y la libertad de la carretera.</p>
+            <ul class="features">
+                <li><i class="fas fa-couch"></i> Asiento cómodo</li>
+                <li><i class="fas fa-gas-pump"></i> Gran autonomía</li>
+                <li><i class="fas fa-suitcase"></i> Capacidad de carga</li>
+            </ul>
+        </section>
+
+        <section id="enduro">
+            <h2>Motos Enduro</h2>
+            <img src="images/moto_enduro.jpg" Balt="Moto Enduro">
+            <p>Las motos enduro están diseñadas para off-road y aventuras todo terreno. Con su suspensión de largo recorrido y neumáticos todoterreno, estas motos pueden enfrentarse a cualquier tipo de terreno.</p>
+            <ul class="features">
+                <li><i class="fas fa-mountain"></i> Capacidad todo terreno</li>
+                <li><i class="fas fa-weight-hanging"></i> Ligeras y ágiles</li>
+                <li><i class="fas fa-tachometer-alt"></i> Versatilidad en carretera y fuera de ella</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="gallery">
+                <img src="images/img4.jpg" alt="Moto 1">
+                <img src="images/img2.jpg" alt="Moto 2">
+                <img src="images/img3.jpg" alt="Moto 3">
+                <img src="images/img5.jpg" alt="Moto 4">
+            </div>
+            <div class="iframe-container">
+            <a href="https://www.yamaha-motor.com.mx/" target="_blank" class="iframe-container">
+                <iframe src="https://www.yamaha-motor.com.mx/" width="600s" height="400" frameborder="0" allowfullscreen></iframe>
+            </a>
+        </div>            
+        </section>
+
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre"><i class="fas fa-user"></i> Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tipo-moto"><i class="fas fa-motorcycle"></i> Tipo de moto favorita:</label>
+                <select id="tipo-moto" name="tipo-moto">
+                    <option value="deportiva">Deportiva</option>
+                    <option value="crucero">Crucero</option>
+                    <option value="enduro">Enduro</option>
+                </select>
+
+                <label for="mensaje"><i class="fas fa-comment"></i> Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required cursor: "crosshair"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="sobre nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un grupo de amantes de las motos y la pasión por el deporte que nos une. Nuestro objetivo es brindar a todos nuestros clientes la mejor experiencia y asegurarles que las motos son un juego de elegancia y entretenimiento.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TI-BIKERSZ. Todos los derechos reservados.</p>
+     <p>   Christian Denzel Guzman Ramirez</p>
+     <p>   Rodrigo Jared Garcia Hernandez</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer></body>
+</html> 
