@@ -3,62 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleP.css">
     <title>Portafolio de Evidencias</title>
     <link rel="icon" type="image/png" href="Imagenes/Img.png">
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        h2 {
-            color: #2980b9;
-        }
-        h3 {
-            color: #8e44ad;
-        }
-        
-                .portafolio {
-            text-align: center;
-            background-color: #f1f1f1;
-            border: 3px solid blue; 
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-    </style>
 </head>
 <body>
 
-
-    <div class="portafolio">
+    <header>
         <h1>Portafolio de Evidencias</h1>
-    </div>
-
+    </header>
     <!-- Encabezado de nivel 1 -->
-    <h1>Programación web I</h1>
-    <h1>Ingeniería en Tecnologías de la Información</h1>
-    <h1>Primavera 2025</h1>
-    <hr>
-       
-    <!-- Encabezado de nivel 2 -->
-    <h2>Universidad Politécnica de San Luis Potosí</h2>
-    <br>
-    <hr>
-    <h2>Alumno:</h2>
-    <h2>Garcia Hernandez Rodrigo Jared </h2>
-        <hr>
-        <br>
-    </p>
-    <h2>Docente:</h2>
-    <h2>MC Imelda Deyanira Hernández Martínez</h2>
-    <section>
-        <h2>Acerca del Estudiante:</h2>
-    </section>
-        <article>
-            <h3>Biografía</h3>
+     <nav>
+        <ul>
+
+            <li><a href="#carrera">Licenciatura</a></li>
+            <li><a href="#curso">Curso</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#alumno">Sobre el Alumno</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+     </nav>
+    <!-- Contenido del sitio -->
+     <main>
+        <section id="carrera">
+            <h2>Ingeniería en Tecnologías de la Información</h2>
+            <h3>Misión de la Carrera</h3>
+            <p>
+                El Programa Educativo de la carrera de Ingeniería en Tecnologías de la
+                Información está comprometido con la excelencia en la formación
+                integral y humana, y con el aprendizaje, el desarrollo y aplicación del
+                conocimiento en los campos de desarrollo e implementación de
+                software, ofreciendo una solución integral a los problemas asociados
+                con el área computacional. Esta comprometido con la sociedad para
+                mantener una oferta educativa pertinente en el área y desarrollar
+                investigación aplicada involucrando alumnos en la solución de
+                problemas de la sociedad.
+                <br>
+            </p>
+            <h3>Visión de la Carrera</h3>
+            <li> La UPSLP y su programa educativo de Ingeniería en Tecnologías de la Información
+            entregan a la sociedad alumnos formados con los más altos estándares
+            profesionales</li>
+            <li>Egresados que tienen en su haber las competencias pertinentes a las necesidades
+            de su entorno, y son reconocidos en el ámbito laboral por su alto desempeño y
+            calidad personal; un buen porcentaje de ellos realiza estudios de postgrado en el
+            país o en el extranjero.</li>
+            <li>Además, cuentan con varias certificaciones de importancia en el área, actuales y
+            con reconocimiento internacional. Con un nivel de inglés muy aceptable
+            certificado por el British Council.</li>
+            <li>Con experiencia práctica adquirida en los laboratorios, en el estudio de casos y en
+            su estancia profesional y, con las habilidades de manejo de las nuevas tecnologías
+            y la capacidad de reconocer el proceso de aprendizaje como una necesidad
+            permanente.</li>
+        </section>
+        <section id="curso">
+            <h2>Programacion Web 1</h2>
+            <h3>Objetivo de la curso</h3>
+            <li>El alumno desarrollará las habilidades necesarias en el uso del
+            lenguaje de hipermarcado de texto, hojas de estilo en cascada y
+            JavaScript; analizará, diseñará y creará sitios web que cumplan
+            con los requerimientos y necesidades de la institución para la
+            cual se implantará, además los publicará y administrará.</li>
+
+            <h3>Consideraciones sobre las sesiones</h3>
+            <li>Todas las sesiones son de Lunes a Viernes en los horarios marcados para la asignatura</li>
+            <li>Asistencia obligatoria del 90% al curso.</li>
+            <li> El material que sea facilitado durante las clases, se encontrará disponible en el curso de Blackboard correspondiente; y en caso necesario en la carpeta de Público o equipo de Teams.</li>
+            <li>Las tareas se reciben en la fecha estipulada como fecha de entrega y solamente por la vía indicada. </li>
+            <li>No se aceptan tareas por correo electrónico</li>
+
+            <h3>Contenido de la materia</h3>
+            <li>Introducción a HTML</li>
+            <li>HTML Avanzado </li>
+            <li>CSS Básico </li>
+            <li>Diseño Responsivo</li>
+            <li>JavaScript</li>
+        </section>
+
+        <section id="alumno">
+            <h2>Sobre el Alumno</h2>
+            <p class="P1">
+            Garcia Hernandez Rodrigo Jared 
+            </p>
+            <h3>Biografia</h3>
             <p>
                 Naci el 5 de Abril del 2006, cuando tenia 8 años empeze a interesarme por los videojuegos, un tema que me fascina
                 pero por tal motivo de pequeño no tuve todos los recursos para los videojuegos que estaban de moda en aquel entonces, esto me llevo a pensar, estaria dificil crear un videojuego?
@@ -68,101 +95,53 @@
                 esta que al ingresar me empece a interesar hacia todo lo que tenia que ver con,  Inteligencia Actificial, así como la programacion y la programacion WEb. Hoy en día estoy cursando el 2do Semestre de Universidad.
                 Un viaje, que se esta relacionando con lo que me gustaba en mi infancia, y esta siendo emocionante y satisfactorio. Estoy emocionado por lo que el futuro me depara en este campo en constante evolución.
             </p>
-        </article>
-    <section> 
-        <hr>
-    <h2>Misión de la Carrera</h2>
-    <p>
-        El Programa Educativo de la carrera de Ingeniería en Tecnologías de la
-        Información está comprometido con la excelencia en la formación
-        integral y humana, y con el aprendizaje, el desarrollo y aplicación del
-        conocimiento en los campos de desarrollo e implementación de
-        software, ofreciendo una solución integral a los problemas asociados
-        con el área computacional. Esta comprometido con la sociedad para
-        mantener una oferta educativa pertinente en el área y desarrollar
-        investigación aplicada involucrando alumnos en la solución de
-        problemas de la sociedad.
-        <br>
-    </p>
-    <hr>
-    <h2>Visión de la Carrera</h2>
-    <li> La UPSLP y su programa educativo de Ingeniería en Tecnologías de la Información
-    entregan a la sociedad alumnos formados con los más altos estándares
-    profesionales</li>
-<br>
-    <li>Egresados que tienen en su haber las competencias pertinentes a las necesidades
-    de su entorno, y son reconocidos en el ámbito laboral por su alto desempeño y
-    calidad personal; un buen porcentaje de ellos realiza estudios de postgrado en el
-    país o en el extranjero.</li>
-<br>
-    <li>Además, cuentan con varias certificaciones de importancia en el área, actuales y
-    con reconocimiento internacional. Con un nivel de inglés muy aceptable
-    certificado por el British Council.</li>
-<br>
-    <li>Con experiencia práctica adquirida en los laboratorios, en el estudio de casos y en
-    su estancia profesional y, con las habilidades de manejo de las nuevas tecnologías
-    y la capacidad de reconocer el proceso de aprendizaje como una necesidad
-    permanente.</li>
-<br>
 
-    <hr>
-    <h2>Objetivo de la curso</h2>
-    <li>El alumno desarrollará las habilidades necesarias en el uso del
-    lenguaje de hipermarcado de texto, hojas de estilo en cascada y
-    JavaScript; analizará, diseñará y creará sitios web que cumplan
-    con los requerimientos y necesidades de la institución para la
-    cual se implantará, además los publicará y administrará.</li>
-    <br>
-    <hr>
-    
-    <section>
-    <h2>Consideraciones sobre las sesiones</h2>
-    <li>Todas las sesiones son de Lunes a Viernes en los horarios marcados para la asignatura</li>
-    <li>Asistencia obligatoria del 90% al curso.</li>
-    <li> El material que sea facilitado durante las clases, se encontrará disponible en el curso de Blackboard correspondiente; y en caso necesario en la carpeta de Público o equipo de Teams.</li>
-    <li>Las tareas se reciben en la fecha estipulada como fecha de entrega y solamente por la vía indicada. </li>
-    <li>No se aceptan tareas por correo electrónico</li>
-    </section>
-    <br>
-    <hr>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
 
-    <section>
-    <ol type="a" style="margin-left: 1px;">
-    <h2>Contenido de la materia</h2>
-    <li>Introducción a HTML</li>
-    <li>HTML Avanzado </li>
-    <li>CSS Básico </li>
-    <li>Diseño Responsivo</li>
-    <li>JavaScript</li>
-    </ol>
-    </section>
-    <br>
-    <hr>
-    <section>
-    <h2>Prácticas del curso</h2>
-    <ol>
-        <h3>Parcial 1</h3>
-    <li><a href="Tablas.html">Práctica 2 Tablas</a></li>
-    <li><a href="IMG2.html">Práctica 3 Iframe</a></li>
-    <li><a href="Practico.html">Examen Practico</a></li>
-        <h3>Parcial 2</h3>
-    <li><a href="P1 FORMS.html">Practica 1 FORMS</a></li>
-    <li><a href="P2 FORMS.html">Practica 2 FORMS</a><li>
-<li><a href="P3 TABLASCSS.html">Practica 3 TABLAS WITH CSS</a><li>
-    <li><a href="Barra NavJ.html">Practica 4 Barra Nav WITH CSS</a><li>
-    <li><a href="Barra Nav3..html">Practica 5 Barra NavFija WITH CSS</a><li>
-    <li><a href="Proyecto 6.html">Proyecto 6</a></li>
-    <li><a href="Proyecto Final.pdf">Planificacon Proyecto Final</a></li>
-    <li><a href="Propiedades.html">Practica 8 Propiedades and z-index</a></li>
-    <li><a href="unidades de medida.html">Practica 9 Unidades de medida HTML</a></li>
-    </ol>
-        
-        
-    <li><a href="https://chriss-devv.github.io/ProyectoPrograWeb/">Proyecto Final</a></li>
-    <br>
-    <hr>
-    
-    </section>
+            <h3>Parcial 1</h3>
+            <ol>
+              <li><a href="Tablas.html">Práctica 2 Tablas</a></li>
+              <li><a href="IMG2.html">Práctica 3 Iframe</a></li>
+              <li><a href="Practico.html">Examen Práctico</a></li>
+            </ol>
+            
+            <h3>Parcial 2</h3>
+            <ol>
+              <li><a href="P1 FORMS.html">Práctica 1 FORMS</a></li>
+              <li><a href="P2 FORMS.html">Práctica 2 FORMS</a></li>
+              <li><a href="P3 TABLASCSS.html">Práctica 3 TABLAS WITH CSS</a></li>
+              <li><a href="Barra NavJ.html">Práctica 4 Barra Nav WITH CSS</a></li>
+              <li><a href="Proyecto 6.html">Proyecto 6</a></li>
+              <li><a href="Proyecto Final.pdf">Planificación Proyecto Final</a></li>
+              <li><a href="Propiedades.html">Práctica 8 Propiedades and z-index</a></li>
+              <li><a href="unidades de medida.html">Práctica 9 Unidades de medida HTML</a></li>
+            </ol>
+            
+            <h3>Proyecto Final</h3>
+            <ol>
+              <li><a href="https://chriss-devv.github.io/ProyectoPrograWeb/">Proyecto Final</a></li>
+            </ol>
+            
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li><a href="186590@upslp.edu.mx">186590@upslp.edu.mxx</a></li>
+            </ul>
+        </section>
+        <footer>
+            <h3>Universidad politecnica de San Luis Potosí</h3>
+            <p>
+                Dirección: Av. Universidad 123, San Luis Potosí, CP 78200
+            </p>
+            <p>
+                Primavera 2025
+            </p>
+
+        </footer>
+     </main>
 
 </body>
 </html>
