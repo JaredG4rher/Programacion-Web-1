@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.galeria .imagen img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Al cargar, las imágenes son visibles */
+.galeria {
+    visibility: visible;
+}
+
+/* Cambios en el botón */
+#mostrar {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Estilo del botón al pasar el mouse */
+#mostrar:hover {
+    background-color: #536c86;
+    transform: scale(1.05);
+}
+
+/* Oculta las imágenes al pasar el mouse sobre el botón */
+#mostrar:hover ~ .galeria {
+    visibility: hidden;
+}
