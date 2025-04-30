@@ -1,0 +1,68 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: #333333;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Título */
+  h1 {
+    color: #c2e1ff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Formulario */
+  form {
+    background-color: #8ef2ff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(18, 235, 217, 0.966);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Etiquetas */
+  label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* Inputs de texto */
+  input[type="text"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Botones */
+  input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 0.3rem 0 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Resultado */
+  #r {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #27ae60;
+    font-weight: bold;
+}
