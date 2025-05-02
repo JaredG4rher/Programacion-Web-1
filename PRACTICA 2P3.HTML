@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="2P3.css">
+    <script type="text/JavaScript" src="2P3.js"></script>
+</head>
+<body>
+    <header><h1>FORMULARIO DE SOLICITUD DE TRABAJO</h1></header></br>
+    <section>
+	<form method="post" action="" 
+	enctype="text/plain">
+	<fieldset>
+        <br>
+
+		<legend>Información del Solicitante</legend> 
+        <form name="formulario" onsubmit="Enviar(); return false;">
+		<label for="nombre">
+		Nombre: 
+		</label><br/>
+		<input type="text" maxlength="25" placeholder="Nombre" name="nombre" id="nombre" autofocus/>
+		<label for="ap">
+		Apellido paterno:
+		</label><br/>
+		<input type="text" maxlength="25" placeholder="Apellido paterno" name="ap" id="ap"/>
+		<label for="am">
+		Apellido materno:
+		</label><br/>
+		<input type="text" maxlength="25" placeholder="Apellido materno" name="am" id="am"/><br/>
+		<label for="user">
+		E-mail: 
+		</label><br/>
+		<input type="text" maxlength="25" placeholder="Usuario" name="user" id="user"/>
+		<label for="em">
+        Calle:
+        <label></br>
+        <input type="text" maxlength="25" placeholder="Calle" name="ch" id="ch"/><br/>
+        <label for="numext">
+        Num.Ext:
+        <input type="text" maxlength="25" placeholder="Num.Ext" name="numext" id="numext"><br/>
+        </label>
+        <label>
+        Colonia:
+        <input type="text" maxlength="25" placeholder="Colonia" name="colonia" id="colonia"><br/>
+        </label>
+        <label for="cp">
+        Código Postal:
+        </label><br/>
+        <input type="number" name="cp" id="cp" placeholder="C.P."/><br/>
+        <label for="rfc">
+
+        <input type="button" name="envio" id="envio" value="Enviar Datos" onclick="Enviar()">
+        <input type="reset" name="borrar" id="borrar" value="Borrar Todo">
+    </form>
+    </fieldset>
+    <div id="resultado"> </div>
+
+</body>
+</html>
