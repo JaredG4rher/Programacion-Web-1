@@ -1,0 +1,70 @@
+body {
+  background-color: whitesmoke;
+}
+ 
+.cont {
+  background-color: lightsteelblue;
+  padding: 20px;
+  width: 1000px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+ 
+h1 {
+  margin-top: 0;
+  color: whitesmoke;
+}
+ 
+.forms {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+ 
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: #45a049;
+}
+ 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ 
+li {
+  background-color: white;
+  margin-bottom: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+ 
+.ok-btn {
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.ok-btn:hover {
+  background-color:blueviolet;
+}
